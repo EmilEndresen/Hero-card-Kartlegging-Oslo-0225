@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid 1px rgb(106, 99, 99); */
+}
+
+body {
+    min-height: 100svh;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: "Bangers", sans-serif;
+}
+
+p {
+    line-height: 1.5;
+    letter-spacing: .6px;
+    font-size: 16px;
+}
+
+h1,
+h3,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-cards {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-container {
+    background-color: hsl(240, 87%, 6%);
+    color: #ececec;
+    display: flex;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.img-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    place-items: center;
+}
+
+.details-container {
+    padding: 30px;
+}
+
+.card-details {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    margin-block: 20px;
+}
+
+.label,
+.occupation {
+    color: red;
+}
